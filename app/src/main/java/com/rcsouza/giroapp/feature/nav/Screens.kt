@@ -10,6 +10,12 @@ sealed class Screens{
     data object SplashScreen: Screens()
 
     @Serializable
+    data object LoginScreen: Screens()
+
+    @Serializable
+    data object RegisterScreen: Screens()
+
+    @Serializable
     data object HomeScreen: Screens()
 
 
